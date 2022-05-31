@@ -1,0 +1,235 @@
+@media (max-width: 1199px) and (min-width: 769px) {
+  body {
+    width: 100%;
+  }
+}
+body {
+  background-color: azure;
+  font-family: helvetica, sans-serif;
+  font-size: 16px;
+margin: 0 auto;
+}
+#lota {
+  color: brown;
+}
+nav {
+  width: 100%;
+ position: fixed;
+ float: right;
+ top: 3;
+ font-size: 12px;
+}
+#nav-bar > ul {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+  list-style: none;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  margin-right: 16px;
+}
+nav > ul > li:hover {
+  background-color: brown;
+}
+.line {
+  margin-top: 50px;
+}
+.htext, .review {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Arial;
+  color: brown;
+}
+.row3 {
+  display: grid;
+  grid-template-columns: 400px 200px;
+}
+.img-text {
+ margin-top: 70px;
+ float: right;
+ margin-left: 100px;
+ font-size: 30px;
+ font-style: italic;
+ color: brown;
+}
+#header-img {
+  width: 350px;
+  height: 300px;
+  border-radius: 50px;
+  margin-top: 100px;
+}
+#video {
+  width: 350px;
+  height: 300px;
+  margin-top: 10px;
+  float: right;
+  border-radius: 50px;
+}
+.bold {
+  font-weight: 600;
+  font-size: 24px;
+  font-family: Tahoma;
+  color: brown;
+  letter-spacing: 0.25rem;
+  line-height: 2rem;
+  text-transform: capitalize;
+}
+.row {
+  display: flex;
+  margin-top: 50px;
+}
+.column {
+  flex: 50%;
+}
+.work {
+  font-family: tahoma;
+  color: brown;
+  font-style: italic;
+  font-size: 14px;
+}
+.img-container {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  margin-right: 25px;
+}
+.clearfix {
+display: flex;
+}
+.two {
+  text-align: center;
+  color: brown;
+  font-family: Tahoma;
+  font-weight: 600;
+  font-size: 24px;
+}
+#features {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 300px 300px;
+  grid-column-gap: 20px;
+}
+.head {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+.network, .headphones, .camera, .global {
+  border-style: inset;
+}
+.meaning {
+  font-size: 16px;
+  line-height: 2rem;
+  text-align: center;
+}
+.ima {
+  font-size: 3rem;
+  text-align: center;
+  background-color: brown;
+  color: white;
+  border-radius: 70px;
+}
+#pricing {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  line-height: 2em;
+}
+.product {
+  font-size: 22px;
+  font-weight: 800;
+  color: brown;
+  text-align: center;
+}
+.price {
+  font-size: 20px;
+  font-weight: 800;
+  color: brown;
+  text-align: center;
+}
+.specs > li {
+  text-align: center;
+  list-style: none;
+  font-size: 18px;
+}
+#our-services {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-column-gap: 30px;
+}
+.repairs, .sales, .delivery {
+margin: 0 auto;
+width: 200px;
+border-style: ridge;
+border-width: 0.25em;
+border-radius: 0 70px;
+margin-left: 100px;
+}
+.imag {
+  font-size: 2em;
+  color: brown;
+}
+.info {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: brown;
+}
+.more {
+  font-size: 16px;
+  line-height: 35px;
+  text-align: center;
+}
+.man {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.caption {
+  width: 30px;
+  font-weight: 600;
+  font-size: 24px;
+  color: brown;
+}
+#testimonies {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-column-gap: 70px;
+}
+.moore {
+  font-size: 14px;
+}
+#form {
+  float: left;
+  width: 300px;
+  border-style: dotted;
+  line-height: 1.5em;
+  background-color: brown;
+}
+button {
+  background-color: lightcoral;
+  border: 0;
+}
+#submit {
+  font-size: 18px;
+  background-color: white;
+  border: 0;
+}
+#contact {
+  width: 200px;
+  clear: both;
+}
+.last2 {
+  font-size: 20px;
+  text-align: center;
+}
+.last {
+  font-size: 1.5em;
+}
